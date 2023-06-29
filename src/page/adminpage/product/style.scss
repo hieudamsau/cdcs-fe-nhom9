@@ -1,0 +1,39 @@
+.list-products {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   background-color: #fff;
+   border-radius: 10px;
+   padding: 20px;
+   .list-control {
+      display: flex;
+      justify-content: space-between;
+   }
+   .heading-products {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 24px;
+      font-weight: 500;
+      padding-bottom: 20px;
+      color: #333;
+      border-bottom: 0.5px solid #dcd8d8;
+      .bread-crum {
+         display: flex;
+         align-items: center;
+         .icon {
+            color: #007eff;
+         }
+         .sub-breadCrum {
+            display: flex;
+            align-items: center;
+         }
+         display: flex;
+         align-items: center;
+         gap: 4px;
+         font-size: 16px;
+         font-weight: 400;
+         color: #7d7979;
+      }
+   }
+}

@@ -1,0 +1,40 @@
+.content-home {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   .heading {
+      font-size: 24px;
+      font-weight: 500;
+      padding-bottom: 20px;
+      color: #333;
+      border-bottom: 0.5px solid #dcd8d8;
+   }
+   .home-control {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .home-search {
+         flex: 3;
+      }
+   }
+   .widgets {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(3, 1fr);
+   }
+   .chart {
+      display: flex;
+      min-height: 50vh;
+      gap: 20px;
+      .left {
+         flex: 3;
+         background-color: aqua;
+         border-radius: 10px;
+      }
+      .right {
+         flex: 2;
+         background-color: cadetblue;
+         border-radius: 10px;
+      }
+   }
+}
