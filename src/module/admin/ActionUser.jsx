@@ -215,7 +215,7 @@ const ActionUser = () => {
  
                          <div className="btn">
                             <Button style={{background:"blue",color:"white"}} size={size} htmlType="submit">
-                               {id ? 'Cập nhật Nhân Viên' : 'Thêm Nhân viên'}
+                               {id ? 'Cập nhật ' : 'Thêm '}
                             </Button>
                          </div>
                       </div>

@@ -4,7 +4,7 @@ import paypal from 'paypal-rest-sdk';
 const PayPal = () => {
   useEffect(() => {
     paypal.configure({
-      mode: 'sandbox', // hoặc 'live' khi bạn muốn sử dụng môi trường thực tế
+      mode: 'sandbox', 
       client_id: 'YOUR_CLIENT_ID',
       client_secret: 'YOUR_CLIENT_SECRET'
     });
@@ -54,7 +54,7 @@ const PayPal = () => {
 
   return (
     <div>
-      <button onClick={createPayment}>Pay with PayPal</button>
+      <button onClick={createPayment}>Pay with </button>
     </div>
   );
 };

@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  background: #0E0E15;
+  position: relative;
+  height: 1033px;
+  overflow: hidden;
+}
+
+.head .head-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.head .head-content .menu {
+  display: flex;
+  padding: 26px 300px;
+  position: relative;
+  justify-content: space-between;
+}
+
+.head .head-content .menu .logo {
+  color: #FFF;
+  z-index: 1111;
+  font-family: SFU Futura;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.head .head-content .menu .button {
+  display: flex;
+  gap: 11px;
+}
+
+.head .head-content .menu .button .register {
+  display: flex;
+  width: 128px;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 82px;
+  border: 1px solid #A0E6FF;
+  background: rgba(2, 27, 39, 0.50);
+  font-family: Google Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  color: white;
+  z-index: 222;
+
+}
+
+.head .head-content .menu .button .login {
+  border-radius: 82px;
+  border: 1px solid #A0E6FF;
+  background: #F5FBFF;
+  display: flex;
+  width: 128px;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #032B40;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  flex-shrink: 0;
+  font-family: SFU Futura;
+  z-index: 11111;
+
+}
+
+.head .head-content .title {
+  display: flex;
+  justify-content: center;
+}
+
+.head .head-content .title span {
+  width: 940px;
+  color: #FFF;
+  text-align: center;
+  font-family: SFU Futura;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.head .head-content .banner {
+  display: flex;
+  justify-content: center;
+}
+
+.head .cover {
+  top: 0;
+  position: absolute;
+  display: flex;
+  width: 1053px;
+  height: 1053px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.head .cover .elipse {
+  width: 1053px;
+  left: -665px;
+  position: absolute;
+  height: 1053px;
+  flex-shrink: 0;
+  border-radius: 1053px;
+  background: var(--gradient-20, linear-gradient(199deg, rgba(140, 112, 255, 0.20) 13.51%, rgba(205, 160, 251, 0.20) 35.07%, rgba(213, 160, 251, 0.00) 56.19%));
+}
+
+.head .cover .elipse_2 {
+  width: 555px;
+  height: 555px;
+  position: absolute;
+  top: 0;
+  left: -236px;
+  flex-shrink: 0;
+  border-radius: 555px;
+  background: var(--glow-2, #9502F7);
+  mix-blend-mode: hard-light;
+  filter: blur(256px);
+}
+
+.head .cover .elipse_3 {
+  position: absolute;
+  right: -1500px;
+  width: 1053px;
+  height: 1053px;
+  flex-shrink: 0;
+  border-radius: 1053px;
+  background: linear-gradient(199deg, rgba(140, 112, 255, 0.20) 26.51%, rgba(242, 160, 251, 0.20) 53.28%, rgba(242, 160, 251, 0.00) 122.19%);
+}
+
+.head .cover .elipse_4 {
+  position: absolute;
+  right: -860px;
+  top: 0;
+  width: 370px;
+  height: 370px;
+  flex-shrink: 0;
+  border-radius: 370px;
+  background: var(--glow-2, #9502F7);
+  mix-blend-mode: hard-light;
+  filter: blur(256px);
+}
+
+.mid {
+  background: #1B1934;
+
+  .list-item {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding: 110px 300px;
+  }
+}
+
+.content {
+  background: #0E0E15;
+}
+
+.content .main {
+  padding: 74px 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.content .main .item {
+  gap: 136px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .main .item .image {
+  width: 536px;
+  height: 536px;
+}
+
+.content .main .item .image img {
+  width: 536px;
+  height: 536px;
+}
+
+.content .main .item .des {
+  width: 648px;
+  color: #FFF;
+  font-family: SFU Futura;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
